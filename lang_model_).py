@@ -788,7 +788,5 @@ if __name__ == "__main__":
 
     print("Model successfully quantized, saved, and loaded!")
 
-!pip install streamlit
-
 import streamlit
 print(streamlit.__file__)
