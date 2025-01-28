@@ -1,4 +1,5 @@
-pip install torch
+import os
+os.system('pip install torch')
 
 import streamlit as st
 import torch
