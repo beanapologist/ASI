@@ -1,4 +1,4 @@
-pip install torch
+!pip install torch
 
 import streamlit as st
 import torch
