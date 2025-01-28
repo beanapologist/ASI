@@ -1,10 +1,9 @@
-pip install torch
-
+main
 import streamlit as st
+
 import torch
 import numpy as np
 
-# ... (Your existing code for model loading and prediction) ...
 # Define your model architecture to match the saved model's architecture
 class MyModel(torch.nn.Module):
     def __init__(self, hidden_size: int = 128):  # Added hidden_size argument
