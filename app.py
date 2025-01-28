@@ -1,3 +1,5 @@
+pip install torch
+
 import streamlit as st
 import torch
 import numpy as np
